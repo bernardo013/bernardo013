@@ -1,6 +1,6 @@
 ## Bernardo Marques Mariné
 
-- 🌱 Atualmente estou estudando Kotlin.
+- 🌱 Atualmente estou estudando JS.
 - 💬 Contate-me no Email: bernardomarques4082@gmail.com
 
 <div style="display: inline_block"><br>
