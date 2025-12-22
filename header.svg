@@ -48,37 +48,4 @@
         style="font-family: JetBrains Mono, monospace;">
     bernardomarques4082@gmail.com
   </text>
-
-  <!-- ÍCONES DE TECNOLOGIA -->
-  <!-- TypeScript -->
-  <g transform="translate(60 245) scale(0.9)">
-    <rect width="36" height="36" rx="6" fill="#3178c6"/>
-    <text x="8" y="26"
-          fill="#ffffff"
-          font-size="20"
-          font-weight="700"
-          style="font-family: JetBrains Mono, monospace;">
-      TS
-    </text>
-  </g>
-
-  <!-- Node.js -->
-  <g transform="translate(115 245) scale(0.9)">
-    <polygon points="18,0 36,10 36,26 18,36 0,26 0,10"
-             fill="#3c873a"/>
-  </g>
-
-  <!-- C# -->
-  <g transform="translate(170 245) scale(0.9)">
-    <polygon points="18,0 36,10 36,26 18,36 0,26 0,10"
-             fill="#9b4f96"/>
-    <text x="9" y="24"
-          fill="#ffffff"
-          font-size="16"
-          font-weight="700"
-          style="font-family: JetBrains Mono, monospace;">
-      C#
-    </text>
-  </g>
-
 </svg>
