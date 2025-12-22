@@ -10,7 +10,7 @@
     bernardo@github:~$
   </text>
 
-  <!-- Cursor piscando -->
+  <!-- Cursor piscando (loop garantido) -->
   <text x="330" y="90"
         fill="#22c55e"
         font-size="32"
@@ -19,7 +19,9 @@
     <animate
       attributeName="opacity"
       values="1;0;1"
-      dur="1s"
+      keyTimes="0;0.5;1"
+      dur="0.6s"
+      begin="0s"
       repeatCount="indefinite"/>
   </text>
 
