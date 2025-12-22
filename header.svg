@@ -1,6 +1,8 @@
-<svg width="1200" height="300"
-     viewBox="0 0 1200 300"
+<svg width="1200" height="320"
+     viewBox="0 0 1200 320"
      xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="100%" height="100%" fill="#020617"/>
 
   <!-- Linha de terminal -->
   <text x="60" y="90"
@@ -10,25 +12,23 @@
     bernardo@github:~$
   </text>
 
-  <!-- Cursor piscando (loop garantido) -->
+  <!-- Cursor piscando -->
   <text x="330" y="90"
         fill="#22c55e"
         font-size="32"
         style="font-family: JetBrains Mono, monospace;">
     _
-    <animate
-      attributeName="opacity"
-      values="1;0;1"
-      keyTimes="0;0.5;1"
-      dur="0.6s"
-      begin="0s"
-      repeatCount="indefinite"/>
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="0.7s"
+             repeatCount="indefinite"/>
   </text>
 
   <!-- Nome -->
   <text x="60" y="135"
         fill="#e5e7eb"
-        font-size="42"
+        font-size="44"
+        font-weight="700"
         style="font-family: JetBrains Mono, monospace;">
     Bernardo Marques
   </text>
@@ -48,5 +48,44 @@
         style="font-family: JetBrains Mono, monospace;">
     bernardomarques4082@gmail.com
   </text>
+
+  <!-- ÍCONES DE TECNOLOGIA -->
+  <!-- TypeScript -->
+  <g transform="translate(60 245) scale(0.9)">
+    <rect width="36" height="36" rx="6" fill="#3178c6"/>
+    <text x="8" y="26"
+          fill="#ffffff"
+          font-size="20"
+          font-weight="700"
+          style="font-family: JetBrains Mono, monospace;">
+      TS
+    </text>
+  </g>
+
+  <!-- Node.js -->
+  <g transform="translate(115 245) scale(0.9)">
+    <polygon points="18,0 36,10 36,26 18,36 0,26 0,10"
+             fill="#3c873a"/>
+    <text x="7" y="24"
+          fill="#ffffff"
+          font-size="14"
+          font-weight="700"
+          style="font-family: JetBrains Mono, monospace;">
+      node
+    </text>
+  </g>
+
+  <!-- C# -->
+  <g transform="translate(170 245) scale(0.9)">
+    <polygon points="18,0 36,10 36,26 18,36 0,26 0,10"
+             fill="#9b4f96"/>
+    <text x="9" y="24"
+          fill="#ffffff"
+          font-size="16"
+          font-weight="700"
+          style="font-family: JetBrains Mono, monospace;">
+      C#
+    </text>
+  </g>
 
 </svg>
