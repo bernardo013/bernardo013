@@ -1,24 +1,35 @@
-<svg width="1200" height="280" viewBox="0 0 1200 280"
-     xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .mono { font-family: 'JetBrains Mono', monospace; font-size: 32px; }
+    .green { fill: #22c55e; }
+  </style>
 
-  <rect width="1200" height="280" fill="#020617" rx="16"/>
-
-  <text x="60" y="120"
-        fill="#22c55e"
-        font-size="32"
-        style="font-family: JetBrains Mono, monospace;">
-    bernardo@github:~$
+  <text x="60" y="80" class="mono green">
+    bernardo013@github:~$ <tspan fill="#f8fafc">fetch --profile</tspan>
   </text>
 
-  <text x="330" y="120"
-        fill="#22c55e"
-        font-size="32"
-        style="font-family: JetBrains Mono, monospace;">
-    _
-    <animate attributeName="opacity"
-             values="1;0;1"
-             dur="1s"
-             repeatCount="indefinite"/>
+  <text x="60" y="160" class="mono green">
+    [<tspan fill="#22c55e">
+      <animate attributeName="content" 
+               values="          ;##########" 
+               dur="3s" 
+               repeatCount="indefinite" />
+      ##########
+    </tspan><tspan fill="#334155">
+      <animate attributeName="content" 
+               values="##########;          " 
+               dur="3s" 
+               repeatCount="indefinite" />
+      ##########
+    </tspan>] 
+    <tspan fill="#f8fafc">
+      <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite" />
+      Loading...
+    </tspan>
   </text>
 
+  <text x="60" y="240" class="mono green">
+    > _
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </text>
 </svg>
