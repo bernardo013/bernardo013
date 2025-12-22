@@ -1,11 +1,8 @@
-<div align="left">
-  
-  <img src="./header.svg" alt="Bernardo Marques Mariné" width="100%" style="display: block;" />
+<img src="./header.svg" alt="Bernardo Marques Mariné" width="100%" />
 
-  <div style="display: flex; gap: 10px; margin-left: 105px; margin-top: 10px;">
-    <img src="Csharp.png" width="32" height="32" />
-    <img src="react.png" width="32" height="32" />
-    <img src="type.png" width="31" height="31" />
-  </div>
-
-</div>
+<!-- Ícones de tecnologia -->
+<p align="right" style="margin-top: -12px; margin-right: 38px;">
+  <img src="Csharp.png" width="32" />
+  <img src="react.png" width="32" />
+  <img src="type.png" width="31" />
+</p>
