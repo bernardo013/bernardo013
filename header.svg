@@ -1,4 +1,6 @@
-<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="280" viewBox="0 0 1200 280"
+     xmlns="http://www.w3.org/2000/svg">
+
   <rect width="1200" height="280" fill="#020617" rx="16"/>
 
   <text x="60" y="120"
@@ -8,17 +10,15 @@
     bernardo@github:~$
   </text>
 
-  <text x="60" y="165"
-        fill="#e5e7eb"
-        font-size="42"
+  <text x="330" y="120"
+        fill="#22c55e"
+        font-size="32"
         style="font-family: JetBrains Mono, monospace;">
-    Bernardo Marques
+    _
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1s"
+             repeatCount="indefinite"/>
   </text>
 
-  <text x="60" y="205"
-        fill="#22c55e"
-        font-size="22"
-        style="font-family: JetBrains Mono, monospace;">
-    front-end developer
-  </text>
 </svg>
