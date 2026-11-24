@@ -1,0 +1,34 @@
+<svg width="800" height="240" viewBox="0 0 800 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="240" fill="#ffffff"/>
+
+  <g font-family="'Courier New', Consolas, monospace">
+    <text x="40" y="69" font-size="22" font-weight="700" fill="#22c55e">bernardo@github:~$</text>
+    <text x="40" y="115" font-size="40" font-weight="700" fill="#e5e7eb">Bernardo Marques</text>
+    <text x="40" y="150" font-size="19" font-weight="700" fill="#22c55e">full stack developer</text>
+    <text x="40" y="186" font-size="14" fill="#8a9bb5">bernardomarques4082@gmail.com</text>
+  </g>
+
+  <!-- TypeScript -->
+  <rect x="549" y="103" width="23" height="23" rx="2" fill="#2f8f5b"/>
+  <text x="560.5" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#ffffff">TS</text>
+
+  <!-- Node.js -->
+  <g transform="translate(590 102)">
+    <path d="M12 0 L22 6 V18 L12 24 L2 18 V6 Z" fill="#2f8f5b"/>
+    <path d="M12 6 L17 9 V15 L12 18 L7 15 V9 Z" stroke="#ffffff" stroke-width="1" fill="none" opacity="0.5"/>
+  </g>
+
+  <!-- React -->
+  <g transform="translate(642 114.5)" stroke="#2f8f5b" stroke-width="1.6" fill="none">
+    <ellipse rx="13" ry="5.2"/>
+    <ellipse rx="13" ry="5.2" transform="rotate(60)"/>
+    <ellipse rx="13" ry="5.2" transform="rotate(120)"/>
+    <circle r="2" fill="#2f8f5b" stroke="none"/>
+  </g>
+
+  <!-- PHP (substitui o C#) -->
+  <g transform="translate(670 101)">
+    <ellipse cx="13" cy="13" rx="13" ry="11" fill="#2f8f5b"/>
+    <text x="13" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" font-style="italic" fill="#ffffff">php</text>
+  </g>
+</svg>
