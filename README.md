@@ -1,2 +1,2 @@
-<img src="./header.svg" alt="Bernardo Marques Mariné" width="100%" />
+<img src="./profile.svg" alt="Bernardo Marques Mariné" width="100%" />
 
